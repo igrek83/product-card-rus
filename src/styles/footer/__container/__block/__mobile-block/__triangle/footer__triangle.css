@@ -1,0 +1,6 @@
+.footer__triangle {
+  display: none;
+  border: 15px solid transparent;
+  border-top: 20px solid #1fcfcb;
+  margin-top: 17px;
+}

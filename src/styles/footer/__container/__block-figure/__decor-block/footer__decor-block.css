@@ -1,0 +1,17 @@
+@import url(./__figure/footer__figure.css);
+@import url(./__figure/footer__figure_theme_visibility.css);
+
+.footer__decor-block {
+  display: none;
+  justify-content: space-between;
+  width: 220px;
+  margin-bottom: 5px;
+}
+
+@media all and (max-width: 1100px) {
+  .footer__decor-block {
+    width: 350px;
+    margin-bottom: 0px;
+    margin-top: 8px;
+  }
+}

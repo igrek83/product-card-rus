@@ -1,0 +1,31 @@
+@import url(./__product-close/header__product-close.css);
+@import url(./__image-box/header__image-box.css);
+@import url(./__bascet-span-white/header__bascet-span-white.css);
+@import url(./__bascet-span-summa/header__bascet-span-summa.css);
+@import url(./__small-box/header__small-box.css);
+
+.header__product-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #303737;
+  width: 340px;
+  border-radius: 20px;
+  padding: 4px 20px 4px 4px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+@media all and (max-width: 1100px) {
+  .header__product-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #303737;
+    width: 900px;
+    border-radius: 40px;
+    padding: 10px 140px 10px 10px;
+    margin-bottom: 20px;
+  }
+}

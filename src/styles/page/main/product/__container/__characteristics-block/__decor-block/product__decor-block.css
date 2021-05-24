@@ -1,0 +1,10 @@
+.product__decor-block {
+  display: none;
+  flex-direction: column;
+}
+
+@media all and (max-width: 1500px) {
+  .product__decor-block {
+    display: flex;
+  }
+}

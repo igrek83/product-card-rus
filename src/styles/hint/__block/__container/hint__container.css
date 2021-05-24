@@ -1,0 +1,21 @@
+@import url(./__number/hint__number.css);
+@import url(./__image-one/hint__image-one.css);
+@import url(./__image-two/hint__image-two.css);
+@import url(./__image-three/hint__image-three.css);
+@import url(./__image-four/hint__image-four.css);
+@import url(./__image-five/hint__image-five.css);
+
+.hint__container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding-left: 20px;
+}
+
+@media all and (max-width: 1100px) {
+  .hint__container {
+    flex-direction: column;
+    padding-left: 0;
+  }
+}

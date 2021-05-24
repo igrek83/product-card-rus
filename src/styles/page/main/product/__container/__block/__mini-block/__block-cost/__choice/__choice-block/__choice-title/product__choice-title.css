@@ -1,0 +1,17 @@
+.product__choice-title {
+  font-family: 'Open Sans';
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 17px;
+  text-transform: capitalize;
+  color: #252b2b;
+  margin-bottom: 12px;
+}
+
+@media all and (max-width: 1100px) {
+  .product__choice-title {
+    font-size: 32px;
+    line-height: 50px;
+    margin-bottom: 70px;
+  }
+}

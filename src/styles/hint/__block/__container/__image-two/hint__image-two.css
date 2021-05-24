@@ -1,0 +1,17 @@
+.hint__image-two {
+  width: 230px;
+  height: 460px;
+  background-image: url(../../../../../images/bigHint-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media all and (max-width: 1100px) {
+  .hint__image-two {
+    align-self: flex-start;
+    width: 638px;
+    height: 1275px;
+    align-self: center;
+    background-image: url(../../../../../images/smallHint-2.png);
+  }
+}

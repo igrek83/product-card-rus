@@ -1,0 +1,17 @@
+@import url(./__code-text/description__code-text.css);
+@import url(./__block-text/description__block-text.css);
+
+.description__mini-block {
+  display: flex;
+  flex-direction: column;
+  width: 212px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+@media all and (max-width: 1100px) {
+  .description__mini-block {
+    width: 950px;
+    align-items: center;
+  }
+}

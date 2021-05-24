@@ -1,0 +1,16 @@
+.product__arrow_theme_left {
+  position: relative;
+  background-color: #BDBDBD;
+  transform: rotate(-45deg);
+}
+
+.product__arrow_theme_left::before {
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 4px;
+  background-color: #BDBDBD;
+  transform: rotate(90deg);
+  top: 4px;
+  right: 4px;
+}

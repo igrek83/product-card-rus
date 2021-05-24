@@ -1,0 +1,10 @@
+.description__mini-container_theme_left {
+  position: relative;
+  right: -100px;
+}
+
+@media all and (max-width: 1500px) {
+  .description__mini-container_theme_left {
+    position: static;
+  }
+}

@@ -1,0 +1,16 @@
+@import url(./__decor-figure/description__decor-figure.css);
+@import url(./__figure-visibility/description__figure-visibility.css);
+
+.description__decor-line {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  margin-bottom: 5px;
+}
+
+@media all and (max-width: 1100px) {
+  .description__decor-line {
+    width: 400px;
+    margin-bottom: 9px;
+  }
+}

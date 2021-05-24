@@ -1,0 +1,19 @@
+.product__arrow-span-right {
+  width: 5px;
+  height: 5px;
+  border: 1px solid #888;
+  border-left: none;
+  border-bottom: none;
+  transform: rotate(45deg);
+}
+
+@media all and (max-width: 1100px) {
+  .product__arrow-span-right {
+    width: 25px;
+    height: 25px;
+    border: 3px solid #525353;
+    border-left: none;
+    border-bottom: none;
+    transform: rotate(45deg);
+  }
+}

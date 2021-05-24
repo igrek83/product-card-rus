@@ -1,0 +1,16 @@
+@import url(./__choice-block/product__choice-block.css);
+
+.product__choice {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+  margin-bottom: 60px
+}
+
+@media (max-width:1100px) {
+  .product__choice {
+    width: 100%;
+    padding: 0 55px 0 50px;
+    margin-bottom: 300px
+  }
+}

@@ -1,0 +1,14 @@
+.description__model-span {
+  font-family: 'Open Sans';
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 17px;
+  color: #656666;
+  margin: 25px 10px 0;
+}
+
+@media all and (max-width: 1100px) {
+  .description__model-span {
+    display: none;
+  }
+}

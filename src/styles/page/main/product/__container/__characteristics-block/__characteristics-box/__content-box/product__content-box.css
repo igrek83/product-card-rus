@@ -1,0 +1,15 @@
+@import url(./__box-line/product__box-line.css);
+@import url(./__mini-content-box/product__mini-content-box.css);
+
+.product__content-box {
+  display: flex;
+  flex-direction: column;
+}
+
+@media all and (max-width: 1100px) {
+  .product__content-box {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 900px;
+  }
+}

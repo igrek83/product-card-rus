@@ -1,0 +1,9 @@
+@import url(./__loop/product__loop.css);
+
+.product__box-image {
+  position: relative;
+}
+
+.product__box-image:hover>.product__loop {
+  visibility: visible;
+}

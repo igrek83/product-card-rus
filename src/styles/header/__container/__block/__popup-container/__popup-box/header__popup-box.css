@@ -1,0 +1,22 @@
+@import url(./__popup-right-button/header__popup-right-button.css);
+@import url(./__popup-left-button/header__popup-left-button.css);
+
+.header__popup-box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 336px;
+  margin-top: -95px;
+  margin-bottom: 25px;
+  left: 3px;
+}
+
+@media all and (max-width: 1100px) {
+  .header__popup-box {
+    justify-content: center;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 190px;
+    left: 0;
+  }
+}

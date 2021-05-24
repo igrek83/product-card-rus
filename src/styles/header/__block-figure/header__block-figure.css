@@ -1,0 +1,13 @@
+@import url(./__line/header__line.css);
+@import url(./__figure-line/header__figure-line.css);
+
+.header__block-fugure {
+  display: flex;
+  flex-direction: column;
+}
+
+@media all and (max-width: 1800px) {
+  .header__block-figure {
+    display: none;
+  }
+}

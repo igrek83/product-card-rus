@@ -1,0 +1,84 @@
+
+/*
+.product__add-button-span {
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  color: #fff;
+  background-color: #fff;
+  border-radius: 10px;
+  transition: 0.8s ease all;
+  z-index: 2;
+  left: 7px;
+  top: 5.5px;
+}
+
+@media all and (max-width: 1100px) {
+  .product__add-button-span {
+    width: 142px;
+    height: 142px;
+    border-radius: 60px;
+    top: 8px;
+    left: 9px;
+  }
+}
+
+.product__add-button-span_theme_left {
+  left: 284px;
+}
+
+@media all and (max-width: 1100px) {
+  .product__add-button-span_theme_left {
+    left: 660px;
+  }
+}
+
+*/
+
+
+
+
+.product__add-button-span {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: 0.6s ease all;
+}
+
+.product__add-button-span:before {
+  content: "";
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  color: #fff;
+  background-color: #fff;
+  border-radius: 10px;
+  transition: 0.8s ease all;
+  left: 7px;
+  top: 5.5px;
+}
+
+
+.product__cost-checkbox:checked+.product__add-button-span:before {
+  content: "";
+  left: 284px;
+  background-color: #fff;
+}
+
+@media all and (max-width: 1100px) {
+  .product__add-button-span::before {
+    width: 142px;
+    height: 142px;
+    border-radius: 60px;
+    top: 8px;
+    left: 9px;
+  }
+  .product__cost-checkbox:checked+.product__add-button-span:before {
+    content: "";
+    left: 855px;
+    background-color: #fff;
+  }
+} 

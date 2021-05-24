@@ -1,0 +1,17 @@
+.description__decor-figure {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: inset -1px -1px 1px rgba(100, 100, 100, 0.15),
+    inset 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+@media all and (max-width: 1100px) {
+  .description__decor-figure {
+    width: 12px;
+    height: 12px;
+    box-shadow: inset -2px -2px 2px rgba(100, 100, 100, 0.15),
+      inset 2x 2px 2px rgba(0, 0, 0, 0.15);
+  }
+}

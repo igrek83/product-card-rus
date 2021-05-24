@@ -1,0 +1,18 @@
+.hint__text {
+  font-family: 'Open Sans';
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 150%;
+  color: #717777;
+  text-align: justify;
+}
+
+@media all and (max-width: 1100px) {
+  .hint__text {
+    padding-left: 7%;
+    padding-right: 7%;
+    background: #fff;
+    font-size: 36px;
+    line-height: 150%;
+  }
+}

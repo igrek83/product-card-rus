@@ -1,0 +1,10 @@
+.menu__li {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 49px;
+  color: #9f9f9f;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 3px 0;
+}

@@ -1,0 +1,16 @@
+.description__small-title {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  margin-bottom: 20px;
+}
+
+@media all and (max-width: 1100px) {
+  .description__small-title {
+    align-self: start;
+    font-size: 47px;
+    line-height: 70px;
+    margin-bottom: 100px;
+  }
+}

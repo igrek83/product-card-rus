@@ -1,0 +1,9 @@
+@import url(./__reg/header__reg.css);
+
+.header__box-form-span {
+  font-family: 'Open Sans';
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+  color: #646363;
+}

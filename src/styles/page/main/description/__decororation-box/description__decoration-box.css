@@ -1,0 +1,13 @@
+.description__decoration-box {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: -100px;
+  bottom: -75px;
+}
+
+@media all and (max-width: 1800px) {
+  .description__decoration-box {
+    display: none;
+  }
+}

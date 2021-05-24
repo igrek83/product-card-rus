@@ -1,0 +1,5 @@
+.product__popup-container {
+  display: flex;
+  flex-direction: column;
+  transform: rotate(180deg);
+}

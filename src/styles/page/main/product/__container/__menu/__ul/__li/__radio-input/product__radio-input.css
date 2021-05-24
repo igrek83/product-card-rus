@@ -1,0 +1,7 @@
+.product__radio-input {
+  display: none;
+}
+
+.product__radio-input:checked+.product__li-active {
+  visibility: visible;
+}

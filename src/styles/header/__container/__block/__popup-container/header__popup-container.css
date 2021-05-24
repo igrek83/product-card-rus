@@ -1,0 +1,32 @@
+@import url(./__popup-box/header__popup-box.css);
+
+.header__popup-container {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 270px;
+  overflow: hidden;
+  background: #212727;
+  box-shadow: -1px -1px 1px rgba(31, 207, 203, 0.4),
+    4px 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 14px;
+  top: 57px;
+  left: 448px;
+  z-index: 3;
+  padding-right: 20px;
+}
+
+@media all and (max-width: 1100px) {
+  .header__popup-container {
+    background: #252b2b;
+    width: 1100px;
+    height: auto;
+    top: 200px;
+    left: 0;
+    padding-top: 60px;
+    padding-bottom: 675px;
+    box-shadow: none;
+  }
+}

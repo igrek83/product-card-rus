@@ -1,0 +1,16 @@
+@import url(./__ul/product__ul.css);
+@import url(./__product/product__line.css);
+
+.product__menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media (max-width:1100px) {
+  .product__menu {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 140px
+  }
+}

@@ -1,0 +1,46 @@
+.header__popup-left-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 158px;
+  height: 38px;
+  border-radius: 13px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #252b2b;
+  background: #1fcfcb;
+  transition: all .3s ease-in;
+  border: 1px solid #1fcfcb;
+}
+
+.header__popup-left-button:hover {
+  background: none;
+  color: #1fcfcb;
+}
+
+@media all and (max-width: 1100px) {
+  .header__popup-left-button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 800px;
+    height: 110px;
+    border-radius: 48px;
+    background: #212727;
+    font-family: 'Open Sans';
+    font-size: 34px;
+    line-height: 48px;
+    font-weight: bold;
+    color: #1fcfcb;
+    margin-bottom: 30px;
+    box-shadow: -3px -3px 3px rgba(9, 162, 233, 0.25),
+    1.5px 1.5px 3px rgba(0, 0, 0, 0.25);
+  }
+  .header__popup-left-button:hover {
+    box-shadow: inset -3px -3px 3px rgba(9, 162, 233, 0.25),
+    inset 1.5px 1.5px 3px rgba(0, 0, 0, 0.25);
+  }
+}

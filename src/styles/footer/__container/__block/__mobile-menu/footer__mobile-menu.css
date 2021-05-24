@@ -1,0 +1,13 @@
+.footer__mobile-menu {
+  display: none;
+}
+
+.footer__mobile-menu {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: 0;
+  overflow: hidden;
+  background: hsl(180, 8%, 16%);
+  transition: height .5s ease;
+}

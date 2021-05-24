@@ -1,0 +1,14 @@
+@import url(./__number/description__number.css);
+@import url(./__number-text/description__number-text.css);
+
+.description__block-text {
+  display: flex;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+@media all and (max-width: 1100px) {
+  .description__block-text {
+    margin-bottom: 60px;
+  }
+}

@@ -1,0 +1,28 @@
+.header__popup-right-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 160px;
+  height: 40px;
+  border-radius: 13px;
+  background: #212727;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  box-shadow: -1px -1px 1px rgba(11, 199, 233, 0.3),
+  3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.header__popup-right-button:active {
+  box-shadow: inset -1px -1px 1px rgba(11, 199, 233, 0.3),
+  inset 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+@media all and (max-width: 1100px) {
+  .header__popup-right-button {
+    display: none;
+  }
+}

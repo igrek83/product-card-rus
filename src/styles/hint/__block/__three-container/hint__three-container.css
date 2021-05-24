@@ -1,0 +1,14 @@
+.hint__three-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 100px;
+}
+
+@media all and (max-width: 1100px) {
+  .hint__three-container {
+    flex-direction: column;
+    padding-left: 0;
+  }
+}

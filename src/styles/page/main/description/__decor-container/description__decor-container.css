@@ -1,0 +1,6 @@
+@import url(./__decor-line/description__decor-line.css);
+
+.description__decor-container {
+  display: flex;
+  flex-direction: column;
+}

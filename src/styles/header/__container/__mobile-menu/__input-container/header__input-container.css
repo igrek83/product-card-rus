@@ -1,0 +1,9 @@
+@import url(./__user-input/header__user-input.css);
+@import url(./__user-button/header__user-button.css);
+@import url(./__submit-button/header__submit-button.css);
+@import url(./__submit-button/header__submit-button_theme_bottom.css);
+
+.header__input-container {
+  display: flex;
+  flex-direction: column;
+}

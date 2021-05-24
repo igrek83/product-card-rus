@@ -1,0 +1,9 @@
+@import url(./__slider-image/product__slider-image.css);
+@import url(./__box-image/product__box-image.css);
+
+.product__slider-mini-container {
+  transition: all 1s ease;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(auto, 1fr);
+}

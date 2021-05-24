@@ -1,0 +1,11 @@
+.hint__text_theme_medium {
+  width: 470px;
+  padding-left: 10px;
+}
+
+@media all and (max-width: 1100px) {
+  .hint__text_theme_medium {
+    width: 100%;
+    padding-left: 70px;
+  }
+}

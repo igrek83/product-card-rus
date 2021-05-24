@@ -1,0 +1,19 @@
+@import url(./__big-title/hint__big-title.css);
+
+.hint__mini-block {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  width: 635px;
+  margin-top: 100px;
+  padding-bottom: 350px;
+}
+
+@media all and (max-width: 1100px) {
+  .hint__mini-block {
+    width: 100%;
+    margin-left: 0;
+    padding-bottom: 800px;
+    align-items: center;
+  }
+}

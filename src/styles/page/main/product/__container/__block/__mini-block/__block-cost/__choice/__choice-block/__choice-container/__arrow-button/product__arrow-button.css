@@ -1,0 +1,30 @@
+@import url(./__arrow-span-left/product__arrow-span-left.css);
+@import url(./__arrow-span-right/product__arrow-span-right.css);
+
+.product__arrow-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 15px;
+  height: 24px;
+  border-radius: 4px;
+  background: linear-gradient(133deg, #323e3b -30deg, #17191c 126deg);
+  box-shadow: 3px 3px 5px rgba(49, 49, 49, 0.15),
+    1.5px 1.5px 3px rgba(0, 0, 0, 0.25);
+}
+
+.product__arrow-button:active {
+  box-shadow: inset -2px -2px 2px -2px rgba(49, 49, 49, 0.15),
+    inset 2px 2px 2px -2px rgba(49, 49, 49, 0.25);
+}
+
+@media all and (max-width: 1100px) {
+  .product__arrow-button {
+    width: 80px;
+    height: 140px;
+    border-radius: 22px;
+  }
+}

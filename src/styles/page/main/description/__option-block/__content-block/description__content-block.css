@@ -1,0 +1,9 @@
+@import url(./__product-image/description__product-image.css);
+@import url(./__mini-content-block/description__mini-content-block.css);
+@import url(./__mini-content-block/description__mini-content-block_theme_gray.css);
+
+.description__content-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

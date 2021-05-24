@@ -1,0 +1,16 @@
+@import url(./__product-title/header__product-title.css);
+
+.header__bascet-title-box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 88px 11px 117px;
+}
+
+@media all and (max-width: 1100px) {
+  .header__bascet-title-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 165px 50px 305px;
+  }
+}

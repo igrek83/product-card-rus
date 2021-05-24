@@ -1,0 +1,20 @@
+@import url(./__logo/header__logo.css);
+@import url(./__logo-mobile/header__logo-mobile.css);
+@import url(./__block/header__block.css);
+@import url(./__big-button/header__big-button.css);
+@import url(./__menu/header__menu.css);
+@import url(./__menu/header__menu_theme_arrow.css);
+@import url(./__mobile-menu/header__mobile-menu.css);
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 10px 50px 0;
+}
+
+@media (max-width:1100px) {
+  .header__container {
+    width: 100%;
+  }
+}

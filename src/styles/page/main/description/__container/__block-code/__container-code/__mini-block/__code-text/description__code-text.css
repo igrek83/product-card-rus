@@ -1,0 +1,19 @@
+.description__code-text {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+  color: #2c3131;
+  padding-top: 12px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+@media all and (max-width: 1100px) {
+  .description__code-text {
+    font-size: 36px;
+    line-height: 52px;
+    margin-bottom: 200px;
+  }
+}

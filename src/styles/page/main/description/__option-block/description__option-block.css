@@ -1,0 +1,25 @@
+@import url(./__block-title/description__block-title.css);
+@import url(./__content-block/description__content-block.css);
+
+.description__option-block {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  padding: 40px 70px 50px;
+  background: #f6f6f6;
+  border-radius: 11px;
+  margin-bottom: 90px;
+  box-shadow: inset -3px -3px 4px #fff,
+              inset 4px 4px 4px rgba(160, 159, 159, 0.2);
+}
+
+@media all and (max-width: 1100px) {
+  .description__option-block {
+    display: none;
+  }
+}
+
+
+.product__option-input {
+  display: none;
+}

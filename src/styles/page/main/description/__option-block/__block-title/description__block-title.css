@@ -1,0 +1,8 @@
+@import url(./__mini-span/description__mini-span.css);
+@import url(./__mini-span/description__mini-span_theme_bottom.css);
+
+.description__block-title {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}

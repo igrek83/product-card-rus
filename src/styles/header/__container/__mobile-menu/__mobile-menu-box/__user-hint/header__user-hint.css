@@ -1,0 +1,10 @@
+.header__user-hint {
+  font-family: 'Open Sans';
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 48px;
+  color: #646363;
+  text-decoration-line: underline;
+  margin-top: 80px;
+  margin-bottom: 180px;
+}

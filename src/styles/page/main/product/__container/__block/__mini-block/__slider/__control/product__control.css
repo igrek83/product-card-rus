@@ -1,0 +1,22 @@
+@import url(./__input-style/product__input-style.css);
+@import url(./__input-style/product__input-style_theme_one.css);
+@import url(./__input-style/product__input-style_theme_two.css);
+@import url(./__input-style/product__input-style_theme_three.css);
+
+.product__control {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  left: 0;
+}
+
+@media (max-width:1100px) {
+  .product__control {
+    flex-direction: row;
+    height: auto;
+    width: 300px;
+    left: 400px;
+    top: 1140px
+  }
+}

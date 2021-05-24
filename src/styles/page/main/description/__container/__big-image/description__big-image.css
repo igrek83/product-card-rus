@@ -1,0 +1,14 @@
+.description__big-image {
+  width: 592px;
+  height: 396px;
+  background-size: cover;
+}
+
+@media all and (max-width: 1100px) {
+  .description__big-image {
+    width: 1100px;
+    height: 1150px;
+    order: -1;
+    margin-bottom: 210px;
+  }
+}

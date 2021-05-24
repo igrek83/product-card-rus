@@ -1,0 +1,6 @@
+.product__tv-box {
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  padding-top: 80px;
+}

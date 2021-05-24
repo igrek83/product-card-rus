@@ -1,0 +1,16 @@
+@import url(./__arrow-button/product__arrow-button.css);
+@import url(./__choice-number/product__choice-number.css);
+@import url(./__input-choice/product__input-choice.css);
+@import url(./__style-choice/product__style-choice.css);
+
+.product__choice-container {
+  display: flex;
+  justify-content: space-between;
+  width: 65px;
+}
+
+@media all and (max-width: 1100px) {
+  .product__choice-container {
+    width: 340px;
+  }
+}

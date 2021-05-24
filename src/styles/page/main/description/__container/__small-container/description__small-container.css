@@ -1,0 +1,14 @@
+@import url(./__decor-image/description__decor-image.css);
+
+.description__small-container {
+  display: flex;
+  flex-direction: column;
+  width: 234px;
+}
+
+@media all and (max-width: 1100px) {
+  .description__small-container {
+    width: 100%;
+    align-items: center;
+  }
+}

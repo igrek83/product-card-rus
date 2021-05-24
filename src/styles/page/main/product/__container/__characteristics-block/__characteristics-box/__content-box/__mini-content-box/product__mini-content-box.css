@@ -1,0 +1,20 @@
+@import url(./__span-top/product__span-top.css);
+@import url(./__span-bottom/product__span-bottom.css);
+@import url(./__span-bottom/product__span-bottom_theme_bottom.css);
+
+.product__mini-content-box {
+  display: flex;
+  flex-direction: column;
+}
+
+@media all and (max-width: 1100px) {
+  .product__mini-content-box {
+    text-align: center;
+    background: #fff;
+    border-radius: 51px;
+    box-shadow: 0px 0px 15px rgba(37, 43, 43, 0.15);
+    width: 432px;
+    padding: 140px 0;
+    margin-bottom: 30px;
+  }
+}

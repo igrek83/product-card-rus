@@ -1,0 +1,8 @@
+.description__mini-content-block_color_gray {
+  background: #e2e2e2;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.description__mini-content-block_color_gray .description__content-button {
+  background: #e2e2e2;
+}

@@ -1,0 +1,15 @@
+.hint__number {
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-size: 340px;
+  line-height: 130%;
+  color: #e4e4e4;
+}
+
+@media all and (max-width: 1100px) {
+  .hint__number {
+    order: 2;
+    font-size: 585px;
+    line-height: 170%;
+  }
+}

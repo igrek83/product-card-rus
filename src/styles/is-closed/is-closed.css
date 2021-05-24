@@ -1,0 +1,9 @@
+.is-closed {
+  display: flex;
+}
+
+@media all and (max-width: 1100px) {
+  .is-closed {
+    display: none;
+  }
+}

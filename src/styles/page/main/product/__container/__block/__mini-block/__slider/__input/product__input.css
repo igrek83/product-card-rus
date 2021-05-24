@@ -1,0 +1,61 @@
+.product__input {
+  display: none;
+}
+
+.product__input[id="slider-a"]:checked~.product__control>.product__input-style[for="slider-a"] {
+  border-color: #1fcfcb;
+}
+
+.product__input[id="slider-b"]:checked~.product__control>.product__input-style[for="slider-b"] {
+  border-color: #1fcfcb;
+}
+
+.product__input[id="slider-c"]:checked~.product__control>.product__input-style[for="slider-c"] {
+  border-color: #1fcfcb;
+}
+
+.product__input[id="slider-d"]:checked~.product__control>.product__input-style[for="slider-d"] {
+  border-color: #1fcfcb;
+}
+
+.product__input[id="slider-e"]:checked~.product__control>.product__input-style[for="slider-e"] {
+  border-color: #1fcfcb;
+}
+
+.product__input[id="slider-g"]:checked~.product__control>.product__input-style[for="slider-g"] {
+  border-color: #1fcfcb;
+}
+
+.product__input[id="slider-h"]:checked~.product__control>.product__input-style[for="slider-h"] {
+  border-color: #1fcfcb;
+}
+
+@media all and (max-width: 1100px) {
+  .product__input[id="slider-a"]:checked~.product__control>.product__input-style[for="slider-a"] {
+    background: #1fcfcb;
+  }
+
+  .product__input[id="slider-b"]:checked~.product__control>.product__input-style[for="slider-b"] {
+    background: #1fcfcb;
+  }
+
+  .product__input[id="slider-c"]:checked~.product__control>.product__input-style[for="slider-c"] {
+    background: #1fcfcb;
+  }
+
+  .product__input[id="slider-d"]:checked~.product__control>.product__input-style[for="slider-d"] {
+    background: #1fcfcb;
+  }
+
+  .product__input[id="slider-e"]:checked~.product__control>.product__input-style[for="slider-e"] {
+    background: #1fcfcb;
+  }
+
+  .product__input[id="slider-g"]:checked~.product__control>.product__input-style[for="slider-g"] {
+    background: #1fcfcb;
+  }
+
+  .product__input[id="slider-h"]:checked~.product__control>.product__input-style[for="slider-h"] {
+    background: #1fcfcb;
+  }
+}

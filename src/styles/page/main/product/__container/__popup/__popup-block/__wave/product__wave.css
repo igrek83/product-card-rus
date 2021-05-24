@@ -1,0 +1,41 @@
+@keyframes height {
+  from {
+    height: 0px;
+  }
+
+  to {
+    height: 16px;
+    margin-bottom: 28px;
+  }
+}
+
+.product__wave {
+  position: absolute;
+  height: 16px;
+  background: rgb(23, 192, 243);
+  bottom: 0;
+  margin-left: 8px;
+  margin-bottom: 28px;
+  animation: height .4s 1.2s ease-in;
+  animation-fill-mode: both;
+  width: 47px;
+  transform: perspective(60px) rotateX(160deg);
+}
+
+@media all and (max-width: 1100px) {
+  @keyframes height {
+    from {
+      height: 0px;
+    }
+
+    to {
+      height: 27.2px;
+      margin-bottom: 47.6px;
+    }
+  }
+
+  .product__wave {
+    width: 80px;
+    margin-bottom: 47.6px;
+  }
+}

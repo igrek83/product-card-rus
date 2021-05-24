@@ -1,0 +1,6 @@
+.header__figure-line {
+  display: flex;
+  justify-content: space-between;
+  width: 560px;
+  margin-bottom: 10px;
+}

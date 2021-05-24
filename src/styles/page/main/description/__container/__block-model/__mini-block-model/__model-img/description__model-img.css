@@ -1,0 +1,12 @@
+.description__model-img {
+  width: 63px;
+  height: 55px;
+  background-size: cover;
+}
+
+@media all and (max-width: 1100px) {
+  .description__model-img {
+    width: 141px;
+    height: 125px;
+  }
+}

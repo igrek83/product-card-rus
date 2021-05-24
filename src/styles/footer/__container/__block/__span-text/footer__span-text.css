@@ -1,0 +1,16 @@
+.footer__span-text {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 180%;
+  color: #717777;
+  padding-top: 20px;
+}
+
+@media all and (max-width: 1100px) {
+  .footer__span-text {
+    font-size: 44px;
+    line-height: 150%;
+    padding-top: 15px;
+  }
+}

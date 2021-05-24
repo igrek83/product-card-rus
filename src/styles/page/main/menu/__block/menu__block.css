@@ -1,0 +1,8 @@
+@import url(./__ul/menu__ul.css);
+
+.menu__block {
+  position: relative;
+  justify-content: space-between;
+  display: flex;
+  width: 1200px;
+}

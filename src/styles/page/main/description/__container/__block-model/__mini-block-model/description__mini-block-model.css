@@ -1,0 +1,7 @@
+@import url(./__model-span/description__model-span.css);
+@import url(./__model-img/description__model-img.css);
+
+.description__mini-block-model {
+  display: flex;
+  height: 55px;
+}

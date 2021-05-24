@@ -1,0 +1,5 @@
+@media all and (max-width: 1100px) {
+  .footer__block_theme_end {
+    order: 0;
+  }
+}

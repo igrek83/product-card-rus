@@ -1,0 +1,33 @@
+.description__button-mobile {
+  display: none;
+}
+
+
+
+@media all and (max-width: 1100px) {
+.description__button-mobile {
+  display: flex;
+  justify-content: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 950px;
+  height: 150px;
+  background: #252b2b;
+  border-radius: 43px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  color: #fff;
+  border-radius: 59px;
+  padding-top: 55px;
+  margin-top: 490px;
+  box-shadow: -11px -11px 17px rgba(255, 255, 255, 0.44),
+              15px 15px 16px rgba(160, 159, 159, 0.3);
+  }
+  .description__button-mobile:active {
+    box-shadow: inset -7px -7px 6px rgba(255, 255, 255, 0.15),
+                inset 8px 8px 6px rgba(160, 159, 159, 0.15);
+  }
+}

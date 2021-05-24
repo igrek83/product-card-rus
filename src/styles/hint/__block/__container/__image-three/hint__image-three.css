@@ -1,0 +1,15 @@
+.hint__image-three {
+  width: 380px;
+  height: 455px;
+  background-image: url(../../../../../images/bigHint-3.png);
+  background-size: cover;
+}
+
+@media all and (max-width: 1100px) {
+  .hint__image-three {
+    width: 878px;
+    height: 1260px;
+    align-self: flex-end;
+    background-image: url(../../../../../images/smallHint-3.png);
+  }
+}

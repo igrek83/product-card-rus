@@ -1,0 +1,9 @@
+.footer__four-mobile-menu {
+  height: 0px;
+}
+
+@media all and (max-width: 1100px) {
+  .footer__four-mobile-menu {
+    height: 120px;
+  }
+}

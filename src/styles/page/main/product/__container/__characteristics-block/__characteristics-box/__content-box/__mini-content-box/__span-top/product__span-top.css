@@ -1,0 +1,14 @@
+.product__span-top {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 30px;
+  color: #697776;
+}
+
+@media all and (max-width: 1100px) {
+  .product__span-top {
+    font-size: 36px;
+    line-height: 66px;
+  }
+}

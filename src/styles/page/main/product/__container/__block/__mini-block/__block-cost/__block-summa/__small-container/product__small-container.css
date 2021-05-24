@@ -1,0 +1,6 @@
+@import url(./__span-summa/product__span-summa.css);
+@import url(./__figure/product__figure.css);
+
+.product__small-container {
+  display: flex;
+}

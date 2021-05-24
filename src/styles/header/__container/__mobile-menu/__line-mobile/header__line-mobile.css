@@ -1,0 +1,9 @@
+.header__line-mobile {
+  width: 100%;
+  height: 90px;
+  border-radius: 12px;
+  box-shadow: inset -3px -3px 3px rgba(75, 75, 75, 0.15),
+    inset 2px 2px 2.8px rgba(0, 0, 0, 0.8);
+  margin-top: 140px;
+  margin-bottom: 180px;
+}

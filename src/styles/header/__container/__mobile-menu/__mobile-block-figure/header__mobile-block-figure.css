@@ -1,0 +1,5 @@
+.header__mobile-block-figure {
+  display: flex;
+  flex-direction: column;
+  margin-top: 900px;
+}

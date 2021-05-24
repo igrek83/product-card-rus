@@ -1,0 +1,15 @@
+@import url(./__decoration-line/description__decoration-line.css);
+
+.description__decoration-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: -100px;
+  top: -40px;
+}
+
+@media all and (max-width: 1800px) {
+  .description__decoration-container {
+    display: none;
+  }
+}

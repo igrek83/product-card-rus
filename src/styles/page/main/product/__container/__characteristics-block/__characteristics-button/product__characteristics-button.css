@@ -1,0 +1,38 @@
+.product__characteristics-button {
+  position: relative;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 250px;
+  height: 35px;
+  background: #f0f0f0;
+  border-radius: 11px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 9px;
+  line-height: 12px;
+  color: #797979;
+  right: 430px;
+  box-shadow: -3px -3px 4.5px rgba(255, 255, 255, 0.44),
+              3.8px 3.8px 4.2px rgba(160, 159, 159, 0.3);
+}
+
+.product__characteristics-button:active {
+  box-shadow: inset -3px -3px 4.5px rgba(255, 255, 255, 0.44),
+              inset 3.8px 3.8px 4.2px rgba(160, 159, 159, 0.3);
+}
+
+@media all and (max-width: 1100px) {
+  .product__characteristics-button {
+    position: static;
+    width: 900px;
+    height: 154px;
+    font-size: 36px;
+    line-height: 48px;
+    border-radius: 58px;
+    margin-bottom: 280px;
+    background: linear-gradient(191.79deg, rgba(221, 216, 216, 0.5) -5.6%, rgba(255, 255, 255, 0) 116.15%), #fff;
+    box-shadow: -19px -19px 28px rgba(255, 255, 255, 0.44),
+                17.3px 17.3px 12px rgba(160, 159, 159, 0.2);
+  }
+}

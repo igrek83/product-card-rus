@@ -1,0 +1,18 @@
+@import url(./__bascet-span/header__bascet-span.css);
+@import url(./__bascet-summa/header__bascet-summa.css);
+
+.header__summa-block {
+  display: none;
+}
+
+@media all and (max-width: 1100px) {
+  .header__summa-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1100px;
+    background: #1b2020;
+    padding: 30px 0;
+    margin-bottom: 200px;
+  }
+}

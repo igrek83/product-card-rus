@@ -1,0 +1,15 @@
+.header__span-minus {
+  width: 11px;
+  height: 2px;
+  border-radius: 2px;
+  background: rgb(174, 176, 179);
+  box-shadow: inset 3px 3px 3px rgba(29, 33, 37, 0.5);
+}
+
+@media all and (max-width: 1100px) {
+  .header__span-minus {
+    width: 35px;
+    height: 5px;
+    border-radius: 4px;
+  }
+}

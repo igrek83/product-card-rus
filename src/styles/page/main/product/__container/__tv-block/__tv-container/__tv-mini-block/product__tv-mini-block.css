@@ -1,0 +1,7 @@
+@import url(./__tv-span-top/product__tv-span-top.css);
+@import url(./__tv-span-bottom/product__tv-span-bottom.css);
+
+.product__tv-mini-block {
+  display: flex;
+  flex-direction: column;
+}

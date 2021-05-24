@@ -1,0 +1,28 @@
+@import url(./__title/footer__title.css);
+@import url(./__text/footer__text.css);
+@import url(./__link/footer__link.css);
+@import url(./__span-text/footer__span-text.css);
+@import url(./__social-block/footer__social-block.css);
+@import url(./__ul/footer__ul.css);
+@import url(./__mobile-block/footer__mobile-block.css);
+@import url(./__mobile-menu/footer__mobile-menu.css);
+@import url(./__first-mobile-menu/footer__first-mobile-menu.css);
+@import url(./__two-mobile-menu/footer__two-mobile-menu.css);
+@import url(./__three-mobile-menu/footer__three-mobile-menu.css);
+@import url(./__four-mobile-menu/footer__four-mobile-menu.css);
+@import url(./__figure-circle/footer__figure-circle.css);
+@import url(./__figure-circle/footer__figure-circle_theme_left.css);
+
+.footer__block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+}
+
+@media all and (max-width: 1100px) {
+  .footer__block {
+    width: 800px;
+    margin-bottom: 60px;
+  }
+}

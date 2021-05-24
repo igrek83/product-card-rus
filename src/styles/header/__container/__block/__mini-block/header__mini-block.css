@@ -1,0 +1,9 @@
+@import url(./__circle/header__circle.css);
+@import url(./__ul/header__ul.css);
+
+.header__mini-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}

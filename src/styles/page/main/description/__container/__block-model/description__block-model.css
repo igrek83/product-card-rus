@@ -1,0 +1,19 @@
+@import url(./__mini-block-model/description__mini-block-model.css);
+@import url(./__bottom-block-model/description__bottom-block-model.css);
+@import url(./__model-image/description__model-image.css);
+
+.description__block-model {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  border-radius: 11px;
+  background: #e5e5e5;
+  padding: 10px;
+}
+
+@media all and (max-width: 1100px) {
+  .description__block-model {
+    width: 1100px;
+    padding: 20px 40px;
+  }
+}

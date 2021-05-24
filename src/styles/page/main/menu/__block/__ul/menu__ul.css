@@ -1,0 +1,8 @@
+@import url(./__li/menu__li.css);
+@import url(./__li/menu__li_theme_black.css);
+
+.menu__ul {
+  display: flex;
+  justify-content: space-between;
+  width: 185px;
+}

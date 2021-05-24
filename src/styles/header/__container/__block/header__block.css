@@ -1,0 +1,15 @@
+@import url(./__mini-block/header__mini-block.css);
+@import url(./__form/header__form.css);
+@import url(./__popup-container/header__popup-container.css);
+
+.header__block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+@media all and (max-width: 1100px) {
+  .header__block {
+    display: none;
+  }
+}

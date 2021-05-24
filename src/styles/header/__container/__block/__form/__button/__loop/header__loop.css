@@ -1,0 +1,34 @@
+.header__loop {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.header__loop::before {
+  position: absolute;
+  content: "";
+  width: 7px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.3);
+  transform: rotate(45deg);
+  top: 8px;
+  left: 5px;
+}
+
+@media all and (max-width: 1100px) {
+  .header__loop {
+    width: 23px;
+    height: 23px;
+    border: 3px solid rgba(255, 255, 255, 0.7);
+  }
+  .header__loop::before {
+    width: 14px;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.7);
+    top: 21px;
+    left: 13px;
+  }
+}

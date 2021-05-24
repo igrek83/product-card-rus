@@ -1,0 +1,17 @@
+@import url(./__button/footer__button.css);
+
+.footer__social-block {
+  display: flex;
+  justify-content: space-between;
+  width: 220px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media all and (max-width: 1100px) {
+  .footer__social-block {
+    width: 650px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+  }
+}

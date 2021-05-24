@@ -1,0 +1,33 @@
+.product__input-style {
+  display: none;
+  cursor: pointer;
+  width: 56px;
+  height: 56px;
+  border-radius: 6px;
+  border: 1px solid #dfdfdf;
+  background-position: center;
+  background-size: 35px;
+  background-repeat: no-repeat;
+  padding: 5px;
+  margin-bottom: 3px;
+}
+
+@media (max-width:1100px) {
+  .product__input-style {
+    -webkit-tap-highlight-color: transparent;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: none;
+    background: #efefef;
+    background-image: none !important;
+    box-shadow: inset -4px -4px 4px rgba(139, 138, 138, .15), inset 4px 4px 4px rgba(0, 0, 0, .15)
+  }
+}
+
+.product__input-style {
+  background-position: center;
+  background-size: 50px;
+  background-repeat: no-repeat;
+  
+}

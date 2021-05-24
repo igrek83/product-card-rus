@@ -1,0 +1,18 @@
+@import url(./__slider/product__slider.css);
+@import url(./__block-cost/product__block-cost.css);
+@import url(./__arrow/product__arrow.css);
+@import url(./__arrow/product__arrow_theme_left.css);
+@import url(./__arrow/product__arrow_theme_right.css);
+
+.product__mini-block {
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+}
+
+@media all and (max-width: 1100px) {
+  .product__mini-block {
+    flex-direction: column;
+    margin-left: 0;
+  }
+}

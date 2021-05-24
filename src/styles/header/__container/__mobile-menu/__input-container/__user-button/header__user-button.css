@@ -1,0 +1,22 @@
+.header__user-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 800px;
+  height: 110px;
+  border-radius: 48px;
+  background: #212727;
+  font-family: 'Open Sans';
+  font-size: 34px;
+  line-height: 48px;
+  font-weight: bold;
+  color: #9c9c9c;
+  margin-bottom: 260px;
+  box-shadow: -3px -3px 3px rgba(255, 255, 255, 0.03),
+    1.5px 1.5px 3px rgba(0, 0, 0, 0.3);
+}
+
+.header__user-button:active {
+  box-shadow: inset -3px -3px 3px rgba(255, 255, 255, 0.03),
+    inset 1.5px 1.5px 3px rgba(0, 0, 0, 0.3);
+}

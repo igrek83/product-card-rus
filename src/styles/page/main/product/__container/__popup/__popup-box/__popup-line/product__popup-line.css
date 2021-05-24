@@ -1,0 +1,5 @@
+@import url(./__popup-figure/product__popup-figure.css);
+
+.product__popup-line {
+  display: flex;
+}

@@ -1,0 +1,6 @@
+@import url(./__popup-line/product__popup-line.css);
+
+.product__popup-box {
+  display: flex;
+  flex-direction: column;
+}

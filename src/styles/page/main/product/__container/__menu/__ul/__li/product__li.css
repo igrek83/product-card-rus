@@ -1,0 +1,7 @@
+@import url(./__li-title/product__li-title.css);
+@import url(./__radio-input/product__radio-input.css);
+
+.product__li {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,14 @@
+.hint__four-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding-right: 80px;
+}
+
+@media all and (max-width: 1100px) {
+  .hint__four-container {
+    flex-direction: column;
+    padding-right: 0;
+  }
+}

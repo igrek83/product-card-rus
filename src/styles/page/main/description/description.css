@@ -1,0 +1,26 @@
+@import url(./__container/description__container.css);
+@import url(./__line/description__line.css);
+@import url(./__mini-container/description__mini-container.css);
+@import url(./__mini-container/description__mini-container_theme_right.css);
+@import url(./__mini-container/description__mini-container_theme_left.css);
+@import url(./__block-button/description__block-button.css);
+@import url(./__option-block/description__option-block.css);
+@import url(./__decor-container/description__decor-container.css);
+@import url(./__decororation-container/description__decoration-container.css);
+@import url(./__decororation-box/description__decoration-box.css);
+
+.description {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 250px;
+  opacity: 0;
+  transition: opacity .7s linear;
+}
+
+@media all and (max-width: 1100px) {
+  .description {
+    padding-bottom: 500px;
+  }
+}

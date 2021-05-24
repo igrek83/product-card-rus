@@ -1,0 +1,14 @@
+@import url(./__small-button/header__small-button.css);
+
+.header__small-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80px;
+}
+
+@media all and (max-width: 1100px) {
+  .header__small-box {
+    width: 250px;
+  }
+}

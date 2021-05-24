@@ -1,0 +1,16 @@
+@import url(./__small-block-text/description__small-block-text.css);
+@import url(./__small-title/description__small-title.css);
+
+.description__small-block {
+  display: flex;
+  flex-direction: column;
+  width: 530px;
+  padding: 25px 40px 0;
+}
+
+@media all and (max-width: 1100px) {
+  .description__small-block {
+    width: 950px;
+    padding-bottom: 200px;
+  }
+}

@@ -1,0 +1,23 @@
+@import url(./__button/product__button.css);
+@import url(./__block/product__block.css);
+@import url(./__menu/product__menu.css);
+@import url(./__characteristics-block/product__characteristics-block.css);
+@import url(./__tv-block/product__tv-block.css);
+@import url(./__shipping-block/product__chipping-block.css);
+@import url(./__warrabty-information/product__warrabty-information.css);
+@import url(./__comments-block/product__comments-block.css);
+@import url(./__popup/product__popup.css);
+
+.product__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+}
+
+@media all and (max-width: 1100px) {
+  .product__container {
+    align-items: center;
+    width: 1100px;
+  }
+}

@@ -1,0 +1,10 @@
+@import url(./__container/product__container.css);
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: 19px;
+  padding-bottom: 100px;
+}

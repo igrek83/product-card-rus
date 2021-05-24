@@ -1,0 +1,16 @@
+@import url(./__figure/header__figure.css);
+@import url(./__figure/header__figure_theme_visibility.css);
+
+.header__line {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  margin-bottom: 5px;
+}
+
+@media all and (max-width: 1100px) {
+  .header__line {
+    width: 510px;
+    margin-bottom: 9px;
+  }
+}

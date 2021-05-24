@@ -1,0 +1,9 @@
+.product__input-style_theme_two {
+  background-image: url(../../../../../../../../../../images/png-2.png);
+}
+
+@media all and (max-width: 1100px) {
+  .product__input-style_theme_two {
+    background-image: none;
+  }
+}

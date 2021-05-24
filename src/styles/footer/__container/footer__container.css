@@ -1,0 +1,22 @@
+@import url(./__block/footer__block.css);
+@import url(./__block/footer__block_theme_top.css);
+@import url(./__block/footer__block_theme_end.css);
+@import url(./__decor-line/footer__decor-line.css);
+@import url(./__block-figure/footer__block-figure.css);
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+@media all and (max-width: 1100px) {
+  .footer__container {
+    width: 100%;
+    justify-content: left;
+    flex-direction: column;
+    padding: 40px 50px 180px;
+  }
+}

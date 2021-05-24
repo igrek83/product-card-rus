@@ -1,0 +1,29 @@
+@import url(./__button-img/footer__button-img.css);
+
+.footer__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 43px;
+  height: 43px;
+  border-radius: 16px;
+  background: #212727;
+  box-shadow: -4px -4px 4px rgba(255, 255, 255, 0.03),
+              4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.footer__button:active {
+  box-shadow: inset -4px -4px 4px rgba(255, 255, 255, 0.06),
+              inset 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+@media all and (max-width: 1100px) {
+  .footer__button {
+    width: 124px;
+    height: 124px;
+    border-radius: 46px;
+  }
+}

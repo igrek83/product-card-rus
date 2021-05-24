@@ -1,0 +1,10 @@
+@import url(./__bascet-title-box/header__bascet-title-box.css);
+@import url(./__product-box/header__product-box.css);
+@import url(./__product-box/header__product-box_theme_bottom.css);
+@import url(./__popup-block/header__popup-block.css);
+
+.header__bascet-box {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 120px;
+}

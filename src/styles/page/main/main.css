@@ -1,0 +1,11 @@
+@import url(./menu/menu.css);
+@import url(./product/product.css);
+@import url(./description/description.css);
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: #fff;
+}

@@ -1,0 +1,16 @@
+.hint__image-one {
+  width: 600px;
+  height: 500px;
+  background-image: url(../../../../../images/bigHint-1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media all and (max-width: 1100px) {
+  .hint__image-one {
+    width: 878px;
+    height: 1260px;
+    align-self: flex-start;
+    background-image: url(../../../../../images/smallHint-1.png);
+  }
+}

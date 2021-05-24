@@ -1,0 +1,29 @@
+@import url(./__span-minus/header__span-minus.css);
+@import url(./__span-plus/header__span-plus.css);
+
+.header__small-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: linear-gradient(133.71deg, #323e3b -30.53%, #17191c 126.55%);
+  box-shadow: 0px -3px 3px rgba(9, 162, 233, 0.25),
+    0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.header__small-button:active {
+  box-shadow: inset 0px -3px 3px rgba(9, 162, 233, 0.25),
+    inset 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+@media all and (max-width: 1100px) {
+  .header__small-button {
+    width: 75px;
+    height: 75px;
+  }
+}

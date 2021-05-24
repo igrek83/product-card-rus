@@ -1,0 +1,17 @@
+.description__number-text {
+  font-family: 'Open Sans';
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: left;
+  color: #656666;
+  padding-top: 10px;
+}
+
+@media all and (max-width: 1100px) {
+  .description__number-text {
+    font-size: 36px;
+    line-height: 56px;
+    padding-top: 26px;
+  }
+}

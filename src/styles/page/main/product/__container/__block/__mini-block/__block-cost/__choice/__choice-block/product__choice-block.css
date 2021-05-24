@@ -1,0 +1,9 @@
+@import url(./__choice-title/product__choice-title.css);
+@import url(./__choice-container/product__choice-container.css);
+@import url(./__choice-container/product__choice-container_theme_mobile.css);
+
+.product__choice-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

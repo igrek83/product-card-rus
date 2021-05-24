@@ -1,0 +1,14 @@
+.description__model-image {
+  width: 278px;
+  height: 278px;
+  background-size: cover;
+  margin: 60px 0;
+}
+
+@media all and (max-width: 1100px) {
+  .description__model-image {
+    width: 650px;
+    height: 650px;
+    margin: 240px 0;
+  }
+}

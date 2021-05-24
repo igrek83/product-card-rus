@@ -1,0 +1,6 @@
+.description__decoration-line {
+  display: flex;
+  justify-content: space-between;
+  width: 56px;
+  margin-bottom: 5px;
+}

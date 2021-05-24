@@ -1,0 +1,16 @@
+.footer__figure-circle {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #184d4d;
+  border-radius: 50%;
+  top: -50px;
+  left: 30px;
+  background: linear-gradient(133.71deg, #323e3b -30.53%, #17191c 126.55%);
+}
+
+@media all and (max-width: 1100px) {
+  .footer__figure-circle {
+    display: none;
+  }
+}

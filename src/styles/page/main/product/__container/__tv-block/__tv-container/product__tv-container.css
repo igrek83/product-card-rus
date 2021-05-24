@@ -1,0 +1,11 @@
+@import url(./__tv-mini-block/product__tv-mini-block.css);
+@import url(./__tv-mini-block/product__tv-mini-block_theme_one.css);
+@import url(./__tv-mini-block/product__tv-mini-block_theme_two.css);
+
+.product__tv-container {
+  display: flex;
+  width: 650px;
+  height: 370px;
+  background-image: url(../../../../../../../images/tv.png);
+  background-size: cover;
+}

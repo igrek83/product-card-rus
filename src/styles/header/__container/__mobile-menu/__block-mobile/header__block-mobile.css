@@ -1,0 +1,8 @@
+@import url(./__mobile-block-figure/header__mobile-block-figure.css);
+
+.header__block-mobile {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 500px
+}

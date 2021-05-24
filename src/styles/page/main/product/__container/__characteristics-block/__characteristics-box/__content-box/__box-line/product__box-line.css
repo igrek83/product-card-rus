@@ -1,0 +1,15 @@
+.product__box-line {
+  width: 105px;
+  height: 3px;
+  border-radius: 4px;
+  background: #f3f3f3;
+  margin: 30px 0;
+  box-shadow: inset -1.5px -1.5px 3px #fff,
+              inset 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.15);
+}
+
+@media all and (max-width: 1100px) {
+  .product__box-line {
+    display: none;
+  }
+}

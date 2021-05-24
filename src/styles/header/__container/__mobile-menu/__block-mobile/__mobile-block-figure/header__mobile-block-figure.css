@@ -1,0 +1,4 @@
+.header__mobile-block-figure {
+  display: none;
+  flex-direction: column;
+}

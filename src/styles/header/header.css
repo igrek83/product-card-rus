@@ -1,0 +1,33 @@
+@import url(./__container/header__container.css);
+@import url(./__block-figure/header__block-figure.css);
+
+.header {
+  display: none;
+  justify-content: flex-end;
+  width: 1903px;
+  height: 150px;
+  background-color: #252b2b;
+  padding-top: 14px
+}
+
+@media all and (max-width:1800px) {
+  .header {
+    justify-content: center
+  }
+}
+
+@media all and (max-width:1500px) {
+  .header {
+    width: 1500px;
+  }
+}
+
+@media (max-width:1100px) {
+  .header {
+    background: #fff;
+    height: 300px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    width: 1100px;
+  }
+}

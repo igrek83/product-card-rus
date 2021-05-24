@@ -1,0 +1,20 @@
+.product__big-button_theme_buy {
+  cursor: pointer;
+}
+
+.product__big-button_theme_buy:active {
+  box-shadow: inset -5px -5px 6px rgba(255, 255, 255, 0.44), inset 3px 3px 3px rgba(160, 159, 159, 0.2);
+}
+
+.product__big-button_theme_buy {
+  color: #597776;
+  background: linear-gradient(191.79deg, rgba(221, 216, 216, 0.5) -5.6%, rgba(255, 255, 255, 0) 116.15%), #fff;
+  box-shadow: -5px -5px 6px rgba(255, 255, 255, 0.44), 3px 3px 3px rgba(160, 159, 159, 0.2);
+}
+
+@media all and (max-width: 1100px) {
+  .product__big-button_theme_buy {
+    color: #fff;
+    background: #1fcfcb;
+  }
+}

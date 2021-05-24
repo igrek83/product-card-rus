@@ -1,0 +1,10 @@
+@import url(./__mini-input/header__mini-input.css);
+@import url(./__hint/header__hint.css);
+
+.header__box-form-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}

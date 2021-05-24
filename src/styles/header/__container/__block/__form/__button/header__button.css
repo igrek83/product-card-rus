@@ -1,0 +1,25 @@
+@import url(./__loop/header__loop.css);
+
+.header__button {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  top: 6px;
+  left: 13px;
+}
+
+
+@media all and (max-width: 1100px) {
+  .header__button {
+    width: 35px;
+    height: 35px;
+    opacity: .5;
+    top: 26px;
+    left: 300px;
+    pointer-events: none;
+  }
+}

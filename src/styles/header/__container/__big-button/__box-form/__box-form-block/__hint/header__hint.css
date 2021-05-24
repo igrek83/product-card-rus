@@ -1,0 +1,10 @@
+.header__hint {
+  font-family: 'Open Sans';
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+  text-decoration: underline;
+  color: #646363;
+  margin-top: 7px;
+  margin-bottom: 50px;
+}

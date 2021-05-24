@@ -1,0 +1,14 @@
+.product__choice-number {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 28px;
+  color: #252b2b;
+}
+
+@media all and (max-width: 1100px) {
+  .product__choice-number {
+    font-size: 52px;
+    line-height: 140px;
+  }
+}

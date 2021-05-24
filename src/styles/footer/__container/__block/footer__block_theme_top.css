@@ -1,0 +1,9 @@
+.footer__block_theme_top {
+  margin-top: 0;
+}
+
+@media all and (max-width: 1100px) {
+  .footer__block_theme_top {
+    margin-top: 60px;
+  }
+}

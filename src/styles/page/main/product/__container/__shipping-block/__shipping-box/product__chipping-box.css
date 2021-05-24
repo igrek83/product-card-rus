@@ -1,0 +1,14 @@
+@import url(./__chipping-container/product__chipping-container.css);
+@import url(./__chipping-container/product__chipping-container_theme_right.css);
+
+.product__chipping-box {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+}
+
+@media all and (max-width: 1100px) {
+  .product__chipping-box {
+    width: 100%;
+  }
+}

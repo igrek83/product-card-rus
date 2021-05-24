@@ -1,0 +1,39 @@
+.description__button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 331px;
+  height: 52px;
+  border-radius: 12px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #797979;
+  background: linear-gradient(191.79deg, rgba(221, 216, 216, 0.5) 5.6%, rgba(255, 255, 255, 0) 116.15%), #fff;
+  box-shadow: -5px -5px 6px rgba(255, 255, 255, 0.44),
+              3px 3px 3px rgba(160, 159, 159, 0.2);
+}
+
+.description__button:active {
+  box-shadow: inset -5px -5px 6px rgba(255, 255, 255, 0.44),
+              inset 3px 3px 3px rgba(160, 159, 159, 0.2);
+}
+
+@media all and (max-width: 1100px) {
+  .description__button {
+    width: 950px;
+    height: 150px;
+    font-size: 36px;
+    line-height: 48px;
+    border-radius: 59px;
+    margin-bottom: 50px;
+    box-shadow: -19px -19px 28px rgba(255, 255, 255, 0.44),
+    17px 17px 12px rgba(160, 159, 159, 0.2);
+  }
+
+  .description__button:active {
+    box-shadow: inset -19px -19px 28px rgba(255, 255, 255, 0.44),
+      inset 17px 17px 12px rgba(160, 159, 159, 0.2);
+  }
+}

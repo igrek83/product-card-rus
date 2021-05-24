@@ -1,0 +1,15 @@
+.description__decor-image {
+  width: 234px;
+  height: 234px;
+  background-size: cover;
+  margin-bottom: 40px;
+  margin-top: 280px;
+}
+
+@media all and (max-width: 1100px) {
+  .description__decor-image {
+    width: 950px;
+    height: 950px;
+    margin-bottom: 140px;
+  }
+}

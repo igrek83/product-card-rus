@@ -1,0 +1,16 @@
+@import url(./__box-form-title/header__box-form-title.css);
+@import url(./__box-form-block/header__box-form-block.css);
+@import url(./__box-form-button/header__box-form-button.css);
+@import url(./__box-form-span/header__box-form-span.css);
+
+.header__box-form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 290px;
+  height: 0px;
+  overflow: hidden;
+  border-radius: 0px 0px 27px 27px;
+  transition: all .7s ease-in;
+}

@@ -1,0 +1,16 @@
+.product__bascet {
+  background-image: url(../../../../../../../../images/popup-bascet.svg);
+  background-repeat: no-repeat;
+  width: 65px;
+  height: 65px;
+  background-size: contain;
+  z-index: 2;
+  margin-top: 10px;
+}
+
+@media all and (max-width: 1100px) {
+  .product__bascet {
+    width: 110.5px;
+    height: 110.5px;
+  }
+}

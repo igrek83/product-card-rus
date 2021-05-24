@@ -1,0 +1,20 @@
+.product__title {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 20px;
+  color: #252b2b;
+  margin-bottom: 15px;
+  display: none;
+}
+
+@media all and (max-width: 1100px) {
+  .product__title {
+    font-size: 68px;
+    margin-bottom: 130px;
+    padding: 0 50px;
+  }
+}
+
+.product__title-span {
+  margin-left: auto;
+}

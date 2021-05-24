@@ -1,0 +1,13 @@
+.description__content-text {
+  font-family: 'Open Sans';
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #605f5f;
+  margin-bottom: 30px;
+}
+
+.description__content-text_theme_bottom {
+  margin-bottom: 0;
+}

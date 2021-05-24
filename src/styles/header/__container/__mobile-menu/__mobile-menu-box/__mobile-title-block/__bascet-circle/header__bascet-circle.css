@@ -1,0 +1,13 @@
+.header__bascet-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #1fcfcb;
+  box-shadow: 0px 0px 20px #1fcfcb;
+  font-size: 34px;
+  font-weight: bold;
+  margin-right: 50px;
+}

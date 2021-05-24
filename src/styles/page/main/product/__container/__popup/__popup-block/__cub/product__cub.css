@@ -1,0 +1,42 @@
+@keyframes cub {
+  from {
+    opasity: 1;
+    visibility: visible;
+  }
+
+  to {
+    transform: translateY(40px);
+    visibility: hidden;
+  }
+}
+
+.product__cub {
+  visibility: hidden;
+  background-image: url(../../../../../../../../images/cub.svg);
+  background-repeat: no-repeat;
+  width: 45px;
+  height: 45px;
+  background-size: contain;
+  margin-right: 2px;
+  animation: cub .6s .7s ease-in;
+  flex: 1;
+}
+
+@media all and (max-width: 1100px) {
+  @keyframes cub {
+    from {
+      opasity: 1;
+      visibility: visible;
+    }
+
+    to {
+      transform: translateY(90px);
+      visibility: hidden;
+    }
+  }
+  .product__cub {
+    display: none;
+    width: 76.5px;
+    height: 76.5px;
+  }
+}

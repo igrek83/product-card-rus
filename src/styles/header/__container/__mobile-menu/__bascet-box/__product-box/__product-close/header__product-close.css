@@ -1,0 +1,70 @@
+.header__product-close {
+  position: relative;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 22px;
+  height: 22px;
+  border-radius: 7px;
+  background: #303737;
+  box-shadow: 0px -1px 1px rgba(255, 255, 255, 0.25),
+    0px 2px 1px rgba(0, 0, 0, 0.25);
+  order: 2;
+  z-index: 2;
+}
+.header__product-close::before {
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 1px;
+  background: rgb(122, 122, 122);
+  transform: rotate(45deg);
+  right: 5px;
+}
+
+.header__product-close::after {
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 1px;
+  background: rgb(122, 122, 122);
+  transform: rotate(-45deg);
+  right: 5px;
+}
+
+
+.header__product-close:active {
+  box-shadow: inset 0px -1px 1px rgba(255, 255, 255, 0.25),
+    inset 0px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+@media all and (max-width: 1100px) {
+  .header__product-close {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    border-radius: 27px;
+    background-size: 30px;
+    background-image: url(../../../../../../../images/cross.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    right: -35px;
+    top: 20px;
+    box-shadow: 0px -3px 3px rgba(255, 255, 255, 0.25),
+    0px 3px 3px rgba(0, 0, 0, 0.25);
+  }
+  .header__product-close:active {
+    box-shadow: inset 0px -3px 3px rgba(255, 255, 255, 0.25),
+    inset 0px 3px 3px rgba(0, 0, 0, 0.25);
+  }
+  .header__product-close::before {
+    width: 0px;
+    height: 0px;
+  }
+
+  .header__product-close::after {
+    width: 0px;
+    height: 0px;
+  }
+
+}
